@@ -32,5 +32,7 @@ void Ausgabe(String sex, int age) {
         default:
           print("Keine Daten vorhanden");
       }
+    default:
+      print("Keine Daten vorhanden");
   }
 }
