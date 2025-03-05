@@ -1,5 +1,10 @@
 void main() {
+  Ausgabe("female", 20);
+  Ausgabe("female", 25);
+  Ausgabe("female", 30);
   Ausgabe("male", 20);
+  Ausgabe("male", 25);
+  Ausgabe("male", 30);
 }
 
 void Ausgabe(String sex, int age) {
