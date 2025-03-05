@@ -5,6 +5,7 @@ void main() {
   Ausgabe("male", 20);
   Ausgabe("male", 25);
   Ausgabe("male", 30);
+  Ausgabe("male", 36);
 }
 
 void Ausgabe(String sex, int age) {
@@ -17,6 +18,8 @@ void Ausgabe(String sex, int age) {
           print("Im Schnitt 180,4m");
         case >= 30 && < 35:
           print("Im Schnitt 181,3m");
+        default:
+          print("Keine Daten vorhanden");
       }
     case 'male':
       switch (age) {
@@ -26,6 +29,8 @@ void Ausgabe(String sex, int age) {
           print("Im Schnitt 167,3 m");
         case >= 30 && < 35:
           print("Im Schnitt 167,2");
+        default:
+          print("Keine Daten vorhanden");
       }
   }
 }
